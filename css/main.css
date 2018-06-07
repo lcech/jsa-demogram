@@ -1,0 +1,69 @@
+html {
+  height: 102%; /* always keep a scrollbar */
+}
+body {
+  padding-bottom: 20px;
+}
+.navbar-default {
+  margin-bottom: 0;
+}
+.navbar .nav a {
+  font-weight: bold;
+}
+#loginForm {
+  padding-right: 0;
+}
+.jumbotron {
+  background: url(/img/finance-bg.jpg) no-repeat 0 50%;
+  background-size: cover;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 0;
+  text-shadow: White 0.1em 0.1em 0.3em;
+}
+.content {
+  margin-top: 1em;
+}
+.CodeMirror {
+  height: inherit;
+}
+.code-example, .code-example textarea {
+  border: 0;
+  background: #263238;
+}
+.tab-content .panel {
+  border-top: 0;
+}
+.navbar-brand>img {
+  display: inline;
+}
+.navbar-brand span:hover {
+  color: inherit;
+}
+.progress-state {
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  margin: 0;
+}
+.progress-state .step, .progress-state .glyphicon {
+  display: block;
+  float: left;
+  line-height: 1.42857143;
+  margin: 0 2px -1px 0;
+  position: relative;
+}
+.progress-state .glyphicon {
+  padding: 10px 15px;
+}
+.progress-state .step .ico {
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  display: block;
+  padding: 10px 15px;
+}
+.progress-state .active .ico {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
